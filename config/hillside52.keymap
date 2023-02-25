@@ -55,15 +55,15 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 		
-//        blue_layer {
-//            bindings = <
-//    XXXXXXXX    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                                                                  &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      XXXXXXXX
-//    XXXXXXXX    &kp TAB     XXXXXXXX    XXXXXXXX    &kp LBKT    &kp LT                                                                  &kp LPAR    &kp EQUAL   &kp UP      &kp MINUS   &kp COLON   XXXXXXXX
-//    XXXXXXXX    &kp LSHFT   XXXXXXXX    XXXXXXXX    &kp RBKT    &kp GT      XXXXXXXX                                        XXXXXXXX    &kp RPAR    &kp LEFT    &kp DOWN    &kp RIGHT   BSL_SFT     XXXXXXXX
-//    XXXXXXXX    XXXXXXXX    XXXXXXXX                &kp LWIN    ESC_CTL     DEL_RED     XXXXXXXX                XXXXXXXX    ________    ENT_ALT     GRV_ALT                 XXXXXXXX    XXXXXXXX    XXXXXXXX
-//            >;
-//			      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-//        };
+        blue_layer {
+            bindings = <
+    XXXXXXXX    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                                                                  &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      XXXXXXXX
+    XXXXXXXX    &kp TAB     XXXXXXXX    XXXXXXXX    &kp LBKT    &kp LT                                                                  &kp LPAR    &kp EQUAL   &kp UP      &kp MINUS   &kp COLON   XXXXXXXX
+    XXXXXXXX    &kp LSHFT   XXXXXXXX    XXXXXXXX    &kp RBKT    &kp GT      XXXXXXXX                                        XXXXXXXX    &kp RPAR    &kp LEFT    &kp DOWN    &kp RIGHT   BSL_SFT     XXXXXXXX
+    XXXXXXXX    XXXXXXXX    XXXXXXXX                &kp LWIN    ESC_CTL     DEL_RED     XXXXXXXX                XXXXXXXX    ________    ENT_ALT     GRV_ALT                 XXXXXXXX    XXXXXXXX    XXXXXXXX
+            >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
 
 //        red_layer {
 //            bindings = <

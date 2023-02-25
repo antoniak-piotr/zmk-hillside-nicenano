@@ -52,7 +52,7 @@
     XXXXXXXX    Z_SFT       &kp X       &kp C       &kp V       &kp B       XXXXXXXX                                        XXXXXXXX    &kp N       &kp M       &kp COMMA   &kp DOT     SLS_SFT     XXXXXXXX
     XXXXXXXX    XXXXXXXX    XXXXXXXX                &kp LWIN    ESC_CTL     BSP_RED     XXXXXXXX                XXXXXXXX    SPC_BLU     ENT_ALT     SQT_ALT                 XXXXXXXX    XXXXXXXX    XXXXXXXX
             >;
-//						sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+//            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 		
         blue_layer {

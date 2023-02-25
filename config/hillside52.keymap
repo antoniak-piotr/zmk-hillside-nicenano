@@ -40,8 +40,6 @@
 #define ________ &trans
 #define XXXXXXXX &none
 
-//  #           #           #           #           #           #           #           #           #           #           #           #           #           #           #           #
-
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -53,29 +51,27 @@
     XXXXXXXX    Z_SFT       &kp X       &kp C       &kp V       &kp B       XXXXXXXX                                        XXXXXXXX    &kp N       &kp M       &kp COMMA   &kp DOT     SLS_SFT     XXXXXXXX
     XXXXXXXX    XXXXXXXX    XXXXXXXX                &kp LWIN    ESC_CTL     BSP_RED     XXXXXXXX                XXXXXXXX    SPC_BLU     ENT_ALT     SQT_ALT                 XXXXXXXX    XXXXXXXX    XXXXXXXX
             >;
-			      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+//						sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 		
         blue_layer {
             bindings = <
-//  #           #           #           #           #           #           #           #           #           #           #           #           #           #           #           #           #
     XXXXXXXX    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                                                                  &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      XXXXXXXX
     XXXXXXXX    &kp TAB     XXXXXXXX    XXXXXXXX    &kp LBKT    &kp LT                                                                  &kp LPAR    &kp EQUAL   &kp UP      &kp MINUS   &kp COLON   XXXXXXXX
     XXXXXXXX    &kp LSHFT   XXXXXXXX    XXXXXXXX    &kp RBKT    &kp GT      XXXXXXXX                                        XXXXXXXX    &kp RPAR    &kp LEFT    &kp DOWN    &kp RIGHT   BSL_SFT     XXXXXXXX
     XXXXXXXX    XXXXXXXX    XXXXXXXX                &kp LWIN    ESC_CTL     DEL_RED     XXXXXXXX                XXXXXXXX    ________    ENT_ALT     GRV_ALT                 XXXXXXXX    XXXXXXXX    XXXXXXXX
             >;
-			      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+//			      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         red_layer {
             bindings = <
-//  #           #           #           #           #           #           #           #           #           #           #           #           #           #           #           #           #
     XXXXXXXX    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                                                                  &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      XXXXXXXX
     XXXXXXXX    &kp F1      &kp F2      &kp F3      &kp F4      &kp F5                                                                  &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     XXXXXXXX
     XXXXXXXX    &kp LSHFT   BT_1        BT_2        BT_3        &kp F11     XXXXXXXX                                        XXXXXXXX    &kp F12     XXXXXXXX    XXXXXXXX    &kp BT_CLR  &kp RSHFT   XXXXXXXX
     XXXXXXXX    XXXXXXXX    XXXXXXXX                &kp LWIN    ESC_CTL     ________    XXXXXXXX                XXXXXXXX    SPC_BLU     &kp LALT    XXXXXXXX                XXXXXXXX    XXXXXXXX    XXXXXXXX
             >;
-			      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+//			      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
